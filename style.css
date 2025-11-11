@@ -8,11 +8,7 @@
   .navbar {
   overflow-x: hidden;
 }
- img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+
 section, div, .container, .row {
   max-width: 100%;
   overflow-x: hidden;
@@ -443,3 +439,4 @@ html, body {
   width: 100%;
 }
   
+
