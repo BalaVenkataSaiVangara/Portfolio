@@ -191,10 +191,25 @@ body {
     transform: scale(1.02);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   }
+  @media (max-width: 767.98px) {
+    /* Remove the vertical border and replace with a top border for better visual balance */
+    .about-box .col-md-5 {
+      border: none !important;
+      border-bottom: 2px solid rgba(108, 117, 125, 0.3); /* subtle grey line */
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
   
-  .about-img {
-    transition: transform 0.4s ease;
-  }
+    /* Center align all text on mobile for better layout */
+    .about-box .col-md-7 {
+      padding-top: 0;
+      text-align: center;
+    }
+  
+    /* Adjust heading and image spacing */
+    .about-img {
+      width: 150px !important;
+    }
   
   #about ul li {
     margin-bottom: 10px;
@@ -429,6 +444,7 @@ body {
 
 
   
+
 
 
 
