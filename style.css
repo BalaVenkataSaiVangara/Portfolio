@@ -9,10 +9,7 @@
   overflow-x: hidden;
 }
 
-section, div, .container, .row {
-  max-width: 100%;
-  overflow-x: hidden;
-}
+
   .navbar-brand,
   .nav-link {
     color: white !important;
@@ -436,5 +433,6 @@ html, body {
   width: 100%;
 }
   
+
 
 
